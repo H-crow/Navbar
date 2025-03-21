@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+#container {
+    margin: 40px auto;
+    width: 80%;
+}
+
+header,
+nav,
+footer,
+main {
+    float: left;
+}
+
+header {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+nav.superior,
+nav.topo {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+header {
+    height: 200px;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+nav.superior {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav.lateral {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 29%;
+    background-color: #f1f1f1;
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px dashed gray;
+    width: 62%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: justify;
+    float: right;
+    overflow: hidden;
+}
+
+main p,
+main h3 {
+    text-indent: 2%;
+}
+
+main h3 {
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+footer {
+    margin-top: 1%;
+    background-color: slategray;
+    width: 100%;
+    height: 400px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.personagem{
+    width: 200px;
+    padding-top: 1%;
+    float: left;
+    margin-right: 15px;
+}
+
+.acao{
+    width: 450px;
+    padding-left: 25%;
+}
+
+/*nav vertical inicio*/
+nav.lateral ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.lateral li a{
+    display: block;
+    color: white;
+    padding: 8 px 16px;
+    text-decoration: none;
+}
+
+nav.lateral li a:hover{
+    background-color: crimson;
+}
+
+nav.lateral .active{
+    background-color: darkslategray;
+}
+/*nav vertical fim*/
+
+
+/*nav topo inicio*/
+nav.topo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav.topo li{
+    display: inline-block;
+} 
+
+nav.topo li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.topo li a:hover{
+    background-color: crimson;
+}
+
+nav.topo .active{
+    background-color: gray;
+}
+
+/*nav topo fim*/
+
+/*nav superior inicio*/
+nav.superior ul{
+    background-color: darkslategray;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+nav.superior li{
+    float: left;
+    border-right: 1px solid dimgray;
+    color: blanchedalmond;
+} 
+
+nav.superior li:last-child{
+    border-right: none;
+}
+
+nav.superior li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.superior li a:hover{
+    background-color: crimson;
+}
+
+nav.superior .active{
+    background-color: gray;
+}
+/*nav superior fim*/
